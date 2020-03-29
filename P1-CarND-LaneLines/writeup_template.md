@@ -27,9 +27,6 @@ My pipeline (lane line function) consisted of 5 steps. First, I converted the im
 
 In order to draw a single line on the left and right lanes,  I modified the draw_lines() function by first finding the x & y points that belongs to the left or right side of the image. the I calculate the slope and intercept of each lane and find the maximum and minim points. then fined the proper x y point using the liner line function y = Xm+b 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
